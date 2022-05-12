@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div className="App min-h-full">
+    <div className="App min-h-screen">
       <div className='grid grid-row[55%_45%]'>
         <Top />
 

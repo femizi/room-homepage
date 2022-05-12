@@ -2,7 +2,7 @@ import React from 'react'
 
 const Description = ({h1, text} ) => {
   return (
-    <div className='p-24 h-full '>
+    <div className='p-16 md:p-24 h-full '>
                     <h1 className='font-bold text-4xl mb-4 '>
                       {h1}
                     </h1>

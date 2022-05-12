@@ -2,7 +2,7 @@ import React from 'react'
 
 const Bottom = () => {
     return (
-        <div className="bottom grid grid-cols-[30%_40%_30%] ">
+        <div className="bottom grid grid-cols-1 md:grid-cols-[30%_40%_30%] ">
             <div>
                 <img src="images/image-about-dark.jpg" alt="" />
                 </div>
