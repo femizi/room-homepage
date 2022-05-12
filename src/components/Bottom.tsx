@@ -4,8 +4,8 @@ const Bottom = () => {
     return (
         <div className="bottom grid grid-cols-1 md:grid-cols-[30%_40%_30%] ">
             <div>
-                <img src="images/image-about-dark.jpg" alt="" />
-                </div>
+                <img className='object-contain w-full h-full' src="images/image-about-dark.jpg" alt="" />
+            </div>
             <div className='p-6'>
                 <h2 className='font-semibold mb-2 text-left tracking-[10px] uppercase'>
                     About our furniture
@@ -18,7 +18,7 @@ const Bottom = () => {
                 </p>
             </div>
             <div>
-                <img className='object-contain w-full' src="images/image-about-light.jpg" alt="" />
+                <img className='object-contain w-full h-full' src="images/image-about-light.jpg" alt="" />
             </div>
         </div>
     )

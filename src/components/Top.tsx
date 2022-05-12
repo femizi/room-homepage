@@ -55,18 +55,18 @@ const Top = () => {
     }
     function textArranger(slideIndex: number) {
         switch (slideIndex) {
-            case 0: { setH1(firstHeading); setText(firstText); break }
-            case 1: { setH1(secondHeading); setText(secondText); break }
-            case 2: { setH1(thirdHeading); setText(thirdText); break }
+            case 0: { setH1(firstHeading); setText(firstText); }
+            case 1: { setH1(secondHeading); setText(secondText); }
+            case 2: { setH1(thirdHeading); setText(thirdText); }
         }
 
     }
-console.log(mobileMenuActive)
+    console.log(mobileMenuActive)
     return (
         <div className="top grid grid-cols-1 md:grid-cols-2 min-h-[500px] ">
             <div className='relative min-h-full'>
                 <MobileNav mobileMenuActive={mobileMenuActive} setMobileMenuActive={setMobileMenuActive} />
-                <MobileMenu mobileMenuActive={mobileMenuActive} setMobileMenuActive={setMobileMenuActive}/>
+                <MobileMenu mobileMenuActive={mobileMenuActive} setMobileMenuActive={setMobileMenuActive} />
                 <DesktopNav />
                 <Slider slideIndex={slideIndex} />
             </div>
