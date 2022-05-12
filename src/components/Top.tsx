@@ -55,9 +55,9 @@ const Top = () => {
     }
     function textArranger(slideIndex: number) {
         switch (slideIndex) {
-            case 0: { setH1(firstHeading); setText(firstText); }
-            case 1: { setH1(secondHeading); setText(secondText); }
-            case 2: { setH1(thirdHeading); setText(thirdText); }
+            case 0: { setH1(firstHeading); setText(firstText) ; break }
+            case 1: { setH1(secondHeading); setText(secondText); break }
+            case 2: { setH1(thirdHeading); setText(thirdText); break }
         }
 
     }
