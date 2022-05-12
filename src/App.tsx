@@ -6,13 +6,16 @@ import Bottom from './components/Bottom'
 import Top from './components/Top'
 
 function App() {
- 
+
 
   return (
     <div className="App min-h-full">
-      <Top/>
+      <div className='grid grid-row[55%_45%]'>
+        <Top />
 
-<Bottom/>
+        <Bottom />
+      </div>
+
 
 
       {/* We are available all across the globe
@@ -31,9 +34,9 @@ function App() {
 
       Shop now */}
 
-     
 
-     <Attribution/>
+
+      <Attribution />
     </div>
   )
 }
